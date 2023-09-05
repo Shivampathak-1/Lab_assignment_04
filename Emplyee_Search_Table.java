@@ -139,9 +139,9 @@ public class Emplyee_Search_Table {
             double totalSalary = 0;
             for (Employee employee : results) {
                 System.out.println("Employee ID: " + employee.getEmployeeID());
-                System.out.println("Name: " + employee.getName());
-                System.out.println("Age: " + employee.getAge());
-                System.out.println("Salary: " + employee.getSalary());
+                System.out.println("Employee Name: " + employee.getName());
+                System.out.println("Employee Age: " + employee.getAge());
+                System.out.println("Employee Salary: " + employee.getSalary());
                 totalSalary += employee.getSalary();
                 System.out.println();
             }
