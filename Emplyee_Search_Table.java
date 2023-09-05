@@ -85,6 +85,9 @@ public class Emplyee_Search_Table {
         EmployeeDatabase employeeDatabase = new EmployeeDatabase();
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Name: Shivam Kumar Pathak");
+        System.out.println("Enroll no. : E22CSEU1097");
+
         System.out.println("Welcome to the Employee Search App!");
 
         while (true) {
